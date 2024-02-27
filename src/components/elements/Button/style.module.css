@@ -1,0 +1,13 @@
+.wrapper {
+  @apply py-3 px-8 rounded-xl;
+  background: rgb(45, 99, 216);
+  background: linear-gradient(
+    45deg,
+    rgba(45, 99, 216, 1) 0%,
+    rgba(48, 72, 165, 1) 80%
+  );
+}
+
+.wrapper > p {
+  @apply text-base font-medium;
+}

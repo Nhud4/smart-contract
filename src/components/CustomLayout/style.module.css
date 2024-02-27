@@ -1,0 +1,7 @@
+.container {
+  @apply bg-[url('../../../public/assets/images/bg.png')] bg-cover min-h-screen;
+}
+
+.children {
+  @apply p-6;
+}

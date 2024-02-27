@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex items-center px-2;
+}
+
+.wrapper > h1 {
+  @apply text-2xl font-medium;
+}
