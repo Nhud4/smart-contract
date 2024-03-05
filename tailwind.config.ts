@@ -19,6 +19,10 @@ const config: Config = {
       white: '#FFFFFF',
       primary: {
         1: '#5BB8F1',
+        2: '#4F80EF',
+      },
+      neutral: {
+        1: '#9E9E9E',
       },
     },
   },
