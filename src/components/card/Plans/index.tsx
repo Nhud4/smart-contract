@@ -10,8 +10,8 @@ export default function Plans() {
     <div className={styles.container}>
       <h1>Future Plans of PrimeBlock</h1>
       <div>
-        {PLANS.map((item) => (
-          <div className={styles.wrapper}>
+        {PLANS.map((item, index) => (
+          <div className={styles.wrapper} key={index}>
             <div className="flex justify-between">
               <div className={styles.heading}>
                 <h2>

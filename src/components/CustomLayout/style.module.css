@@ -5,3 +5,9 @@
 .children {
   @apply px-12 pb-12 pt-8;
 }
+
+@media screen and (max-width: 640px) {
+  .children {
+    @apply px-6 pb-6 pt-4;
+  }
+}

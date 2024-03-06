@@ -24,7 +24,9 @@ export default function Banner() {
           <Button title="Get Sharted" />
         </div>
       </div>
-      <Image alt="banner" src={IMAGES.City} width={500} />
+      <div className="place-self-center">
+        <Image alt="banner" src={IMAGES.City} width={500} />
+      </div>
     </div>
   )
 }

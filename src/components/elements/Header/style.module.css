@@ -3,5 +3,5 @@
 }
 
 .wrapper > h1 {
-  @apply text-2xl font-medium;
+  @apply text-2xl font-medium text-white;
 }

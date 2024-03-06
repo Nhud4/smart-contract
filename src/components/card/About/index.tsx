@@ -16,10 +16,10 @@ export default function About() {
         </div>
         <div className={styles.wrapperText}>
           <div className={styles.text}>
-            <h1>PrimeBlock Is Not Just a</h1>
+            <h1 className="text-white">PrimeBlock Is Not Just a</h1>
             <div className={styles.text2}>
               <h1 className="text-primary-2">Blockchain</h1>
-              <h1>Project</h1>
+              <h1 className="text-white">Project</h1>
             </div>
           </div>
           <p className="text-sm text-neutral-1">

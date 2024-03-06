@@ -29,9 +29,22 @@
 }
 
 .card > h1 {
-  @apply text-2xl font-semibold;
+  @apply text-2xl font-semibold text-white;
 }
 
 .card > p {
   @apply text-base font-medium text-primary-3;
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    @apply space-y-2;
+  }
+  .card > h1 {
+    @apply text-xl font-medium;
+  }
+
+  .card > p {
+    @apply text-sm;
+  }
 }

@@ -44,3 +44,14 @@
 .text2 > h1 {
   @apply text-[36px];
 }
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    @apply grid grid-cols-1 gap-4;
+  }
+
+  .text > h1,
+  .text2 > h1 {
+    @apply text-2xl;
+  }
+}
