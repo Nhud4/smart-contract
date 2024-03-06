@@ -1,0 +1,53 @@
+.container {
+  @apply space-y-12 mt-16 pt-8;
+}
+
+.container > h1 {
+  @apply text-3xl font-medium text-center;
+}
+
+.wrapper {
+  @apply grid grid-cols-2;
+}
+
+.heading {
+  @apply flex justify-end;
+  width: 90%;
+}
+
+.heading > h2 {
+  @apply text-2xl pt-5 text-end;
+}
+
+.desc {
+  @apply pl-12;
+}
+
+.desc > p {
+  @apply text-sm font-thin text-neutral-1 pt-6;
+  width: 80%;
+}
+
+.wrapperLine {
+  @apply flex flex-col items-center justify-center;
+}
+
+.line1 {
+  @apply w-[1.5px] h-8 bg-primary-2 rounded-full;
+}
+
+.line2 {
+  @apply w-[1.5px] h-24 bg-primary-2 rounded-full;
+}
+
+.wrapperCircle {
+  @apply -mt-1;
+  width: 10px;
+  height: 10px;
+}
+
+.circle {
+  @apply bg-white rounded-full;
+  width: 10px;
+  height: 10px;
+}
